@@ -1,5 +1,5 @@
 {
-  "name": "vdf",
+  "name": "keyvalues",
   "rules": {
     "document": {
       "type": "REPEAT",
