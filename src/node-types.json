@@ -1,0 +1,130 @@
+[
+  {
+    "type": "document",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "pair",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "key",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "escape_sequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "pair",
+    "named": true,
+    "fields": {
+      "conditional": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "conditional",
+            "named": true
+          }
+        ]
+      },
+      "key": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "key",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "subpairs",
+            "named": true
+          },
+          {
+            "type": "value",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "subpairs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "pair",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "escape_sequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "\\",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "conditional",
+    "named": true
+  },
+  {
+    "type": "escape_sequence",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
