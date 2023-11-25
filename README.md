@@ -4,4 +4,4 @@ Valve KeyValues grammar for [tree-sitter](https://github.com/tree-sitter/tree-si
 
 ## Usage
 
-* ...[with Neovim](nvim/USAGE.md)
+* [with Neovim](nvim/)
